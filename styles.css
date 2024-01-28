@@ -6,3 +6,9 @@ body {
    background-color: burlywood;
     }
 
+.menu {
+    background-color: burlywood;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
