@@ -19,7 +19,7 @@ body {
    /* background-color: burlywood; */
    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
    font-family: Arial, Helvetica, sans-serif; 
-    
+   padding: 20px;
 }
 
 .menu {
@@ -43,8 +43,33 @@ body {
 
 .item p {
     display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+
 }
 
 .established {
     font-style: italic;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+    /*border-width: 1px;*/
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+/*FOOTER*/
+
+footer {
+    font-size: 14px;
+}
+
+a {
+    color: black;
 }
